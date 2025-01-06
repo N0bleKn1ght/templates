@@ -1,6 +1,13 @@
 const templateButtonsContainer = document.getElementById('template-buttons');
 const searchBar = document.getElementById('search-bar');
-let templates = []; 
+let templates = [];
+
+// Add the event listener to the manage button:
+const manageButton = document.getElementById('manage-button');
+
+manageButton.addEventListener('click', () => {
+  window.location.href = '/manage'; // Redirect to /manage
+});
 
 // Fetch templates
 fetch('templates.json')
@@ -13,13 +20,13 @@ fetch('templates.json')
 
 // Render buttons
 function renderTemplateButtons(templatesToDisplay) {
-  templateButtonsContainer.innerHTML = ''; 
+  templateButtonsContainer.innerHTML = '';
 
   templatesToDisplay.forEach(template => {
     const button = document.createElement('button');
     button.classList.add('template-button');
     // Use template name for the button text
-    button.textContent = template.name; 
+    button.textContent = template.name;
     button.addEventListener('click', () => {
       copyToClipboard(template.content);
       button.textContent = 'Copied!';
@@ -40,18 +47,12 @@ function copyToClipboard(text) {
     });
 }
 
-// Search 
+// Search
 searchBar.addEventListener('input', () => {
   const searchTerm = searchBar.value.toLowerCase();
   const filteredTemplates = templates.filter(template => {
-        return template.name.toLowerCase().includes(searchTerm) ||
-               template.content.toLowerCase().includes(searchTerm);
+    return template.name.toLowerCase().includes(searchTerm) ||
+      template.content.toLowerCase().includes(searchTerm);
   });
   renderTemplateButtons(filteredTemplates);
-  
-  const manageButton = document.getElementById('manage-button');
-
- manageButton.addEventListener('click', () => {
-   window.location.href = '/manage'; // Redirect to /manage
- });
 });
