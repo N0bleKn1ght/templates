@@ -1,28 +1,40 @@
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, get, child, set, remove } from "firebase/database";
+import { db } from './firebaseConfig';
+
 const templateButtonsContainer = document.getElementById('template-buttons');
 const searchBar = document.getElementById('search-bar');
-let templates = [];
-
-// Add the event listener to the manage button:
 const manageButton = document.getElementById('manage-button');
+let templates = [];
 
 manageButton.addEventListener('click', () => {
   window.location.href = '/manage'; // Redirect to /manage
 });
 
-// Fetch templates
-fetch('templates.json')
-  .then(response => response.json())
-  .then(data => {
-    templates = data;
-    renderTemplateButtons(templates);
-  })
-  .catch(error => console.error('Error loading templates:', error));
+async function fetchTemplates() {
+  const dbRef = ref(getDatabase());
+  try {
+    const snapshot = await get(child(dbRef, `templates`));
+    if (snapshot.exists()) {
+      templates = Object.values(snapshot.val());
+    } else {
+      console.log("No templates available");
+      templates = [];
+    }
+  } catch (error) {
+    console.error("Error fetching templates: ", error);
+    templates = [];
+  }
+}
 
 // Render buttons
-function renderTemplateButtons(templatesToDisplay) {
+async function renderTemplateButtons(templatesToDisplay) {
+  await fetchTemplates();
   templateButtonsContainer.innerHTML = '';
 
-  templatesToDisplay.forEach(template => {
+  const displayTemplates = templatesToDisplay || templates;
+
+  displayTemplates.forEach(template => {
     const button = document.createElement('button');
     button.classList.add('template-button');
     // Use template name for the button text
@@ -56,3 +68,5 @@ searchBar.addEventListener('input', () => {
   });
   renderTemplateButtons(filteredTemplates);
 });
+
+renderTemplateButtons();

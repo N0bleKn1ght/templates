@@ -1,34 +1,22 @@
-const fs = require('fs');
-const path = require('path');
+import { db } from '../firebaseConfig';
+import { ref, remove } from 'firebase/database';
 
 module.exports = async (req, res) => {
   if (req.method === 'DELETE') {
     try {
       const { name } = req.query;
-      console.log("Received name to delete:", name); // Log the received name
 
-      // Validate input
       if (!name) {
         return res.status(400).json({ message: 'Invalid input: name is required' });
       }
 
-      const filePath = path.join(process.cwd(), 'templates.json');
-      console.log("File path:", filePath); // Log the file path
+      // Delete the template from Firebase
+      const templateRef = ref(db, `templates/${name}`);
+      await remove(templateRef);
 
-      const templatesData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      console.log("Templates data (before delete):", templatesData); // Log data before deletion
-
-      const updatedTemplates = templatesData.filter(t => t.name !== name);
-
-      if (updatedTemplates.length < templatesData.length) {
-        fs.writeFileSync(filePath, JSON.stringify(updatedTemplates, null, 2));
-        console.log("Templates data (after delete):", updatedTemplates); // Log data after deletion
-        res.status(200).json({ message: 'Template deleted successfully' });
-      } else {
-        res.status(404).json({ message: 'Template not found' });
-      }
+      res.status(200).json({ message: 'Template deleted successfully' });
     } catch (error) {
-      console.error("Error deleting template:", error); // Log the full error object
+      console.error("Error deleting template:", error);
       res.status(500).json({ message: 'Error deleting template' });
     }
   } else {
