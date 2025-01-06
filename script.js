@@ -48,4 +48,10 @@ searchBar.addEventListener('input', () => {
                template.content.toLowerCase().includes(searchTerm);
   });
   renderTemplateButtons(filteredTemplates);
+  
+  const manageButton = document.getElementById('manage-button');
+
+ manageButton.addEventListener('click', () => {
+   window.location.href = '/manage'; // Redirect to /manage
+ });
 });
