@@ -1,0 +1,751 @@
+[
+    {
+      "category": "Notes",
+      "name": "Customer Support - General Inquiry",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: [Player Inquiry]<br><b>Resolution</b>: [Resolution]<br><b>Chat UMID</b>: [Chat UMID]"
+    },
+    {
+      "category": "Notes",
+      "name": "Customer Support - Free Bonus Request (Bonus Granted)",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Free Bonus Request.<br><b>Resolution</b>: Bonus Granted as per Bonus Calculator.<br><b>Chat UMID</b>: [Chat UMID]<br>The client requested it and bonus calculator approved it"
+    },
+    {
+      "category": "Notes",
+      "name": "Customer Support - Free Bonus Request (Bonus Denied - Available Bonus)",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Free Bonus Request.<br><b>Resolution</b>: Bonus Denied. Player has an available bonus.<br><b>Chat UMID</b>: [Chat UMID]"
+    },
+    {  "category": "Notes",
+    "name": "Customer Support - Free Bonus Request (Bonus Denied - Recent Bonus)",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Free Bonus Request.<br><b>Resolution</b>: Bonus Denied. Player had a bonus less than 24 hours ago.<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Free Bonus Request (Bonus Denied - No Deposit Since Last Bonus)",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Free Bonus Request.<br><b>Resolution</b>: Bonus Denied. The player has not deposited since receiving his last bonus<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Player Inactive",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: No reason provided<br><b>Resolution</b>: Pl went inactive<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Phone Number Update",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Player requested a Phone Number Update.<br><b>Resolution</b>: Updated Phone Number.<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Free Spins Information",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Free spins information<br><b>Resolution</b>: Pl was adv. about where his free spins are<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Pre-authorization Issues",
+    "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Pre-authorization Issues.<br><b>Resolution</b>: The player was educated about the waiting times for the return of his money.<br><b>Chat UMID</b>: [Chat UMID]"
+  },
+  {
+    "category": "Notes",
+    "name": "Customer Support - Consultations and Referrals",
+    "content": "<font color=\"blue\"><b>SME CONSULTED</b></font>:<br><font color=\"blue\"><b>Customer Solutions CONSULTED</b></font>:<br><a href=\" Insert http link\" target=\"_blank\"><b> insert CHO-Number</a></b></b>"
+  },
+  {
+      "category": "Refer a Friend",
+      "name": "Bovada Referral",
+      "content": "In the meantime, you can also get bonuses by taking a look at our community forum and social media or recommending our site to your friends!<br>More information is here: https://www.bovada.lv/refer"
+    },
+    {
+      "category": "Refer a Friend",
+      "name": "Ignition Casino Referral",
+      "content": "In the meantime, you can also get bonuses by taking a look at our community forum and social media or recommending our site to your friends!<br>More information is here: https://www.ignitioncasino.eu/refer"
+    },
+    {
+      "category": "Refer a Friend",
+      "name": "Cafe Casino Referral",
+      "content": "In the meantime, you can also get bonuses by taking a look at our community forum and social media or recommending our site to your friends!<br>More information is here: https://www.cafecasino.lv/refer"
+    },
+    {
+      "category": "Refer a Friend",
+      "name": "Slots.lv Referral",
+      "content": "In the meantime, you can also get bonuses by taking a look at our community forum and social media or recommending our site to your friends!<br>More information is here: https://www.slots.lv/refer"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification Prompt 1",
+      "content": "For security purposes, please provide your Date of Birth and 4-digit PIN code"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification Prompt 2",
+      "content": "I'm very sorry you're going through this, do you think we should verify your account first?"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification Prompt 3",
+      "content": "Let me verify your account and I'll be answering all your doubts!"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification Prompt 4",
+      "content": "Could you please verify your identity first, once verified I will help you with whatever you need."
+    },
+    {
+      "category": "Verification",
+      "name": "Fully Verify 1",
+      "content": "Thank you for being proactive in confirming your identity."
+    },
+    {
+      "category": "Verification",
+      "name": "Fully Verify 2",
+      "content": "You’re welcome, XXXX! You have been successfully verified!"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Bonus Check",
+      "content": "Would you give me 2-3 minutes so I can see if you have a bonus waiting for you?"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Request Check",
+      "content": "Would you give me 2-3 minutes so I can check your request?"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Bonus Check",
+      "content": "I will check if there is a good bonus waiting for you!"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Stay on Line",
+      "content": "Could you please stay on the line 3 - 4 minutes?"
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Crypto Inquiry",
+      "content": "Do you think that while I help you with your account you check out this help center on our site that teaches you how to use crypto, remember that these are 100% guaranteed methods, without limits and that they do not charge a fee: "
+    },
+    {
+      "category": "Verification",
+      "name": "Verification - Crypto Consideration",
+      "content": "By the way, have you considered using Crypto for your deposits and withdrawals? We don't charge any fees for Crypto transactions, it's guaranteed to work, and it's really easy to use. I can tell you more so you can consider it for the next time you deposit if you like."
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - No Reply 1",
+      "content": "I haven't received a reply from you recently; do you still need my help? If so, please let me know and I'll be happy to continue. Otherwise, this chat will close shortly."
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - No Reply 2",
+      "content": "Would you like to continue this chat session?"
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - Need Anything Else 1",
+      "content": "If you need anything else let me know, I'll be happy to help you."
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - Still With Me",
+      "content": "Hey XXXXX, I just want to know if you're still with me so I can help you better."
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - Anything Else 1",
+      "content": "Can I help you with anything else?"
+    },
+    {
+      "category": "Warnings",
+      "name": "Warning - Anything Else 2",
+      "content": "Can I do anything else for you?"
+    },
+    {
+      "category": "Closing",
+      "name": "Closing - Feedback Request 1",
+      "content": "It was awesome chatting with you today. Thank you for being such a fantastic customer! Before you go, I’d really appreciate it if you could take a minute to fill out the quick survey at the end of our chat. Just a simple Yes or No about my service—that’s all! Your feedback really makes a difference. Have a wonderful night!"
+    },
+    {
+      "category": "Closing",
+      "name": "Closing - Feedback Request 2",
+      "content": "I like to take a moment to request your feedback. After our chat concludes, a short survey will appear on your screen. It would mean a lot to me if you could spare a few moments to share your honest opinion and rate the service you received."
+    },
+    {
+      "category": "Closing",
+      "name": "Closing - Anything Else",
+      "content": "Is there anything else I can assist you with today?"
+    },
+    {
+      "category": "Closing",
+      "name": "Closing - You're Welcome",
+      "content": "You're most welcome, can I help you with anything else today?"
+    },
+    {
+      "category": "Closing",
+      "name": "Closing - Hope for Bonus",
+      "content": "You've been very kind, XXXX. I hope you will soon be eligible for a non-deposit bonus. I have my fingers crossed for that."
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Announcement 1",
+      "content": "I took a moment to check your account, and I’m excited to inform you that you have a free bonus of $ available for you! 😊"
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Announcement 2",
+      "content": "I have some wonderful news to share with you! 🎉 I’m delighted to offer you a free bonus of $!"
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Refresh Page",
+      "content": "I have issued the bonus for you. Kindly refresh the webpage to see it in your account. Good luck with your upcoming games!"
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Added to Account",
+      "content": "The bonus has already been added to your account, I hope you have good luck in your games."
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Magic",
+      "content": "Do you like magic? Because that's what I'm going to do."
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Display Bonus",
+      "content": "I'm going to display a xxx bonus in your account, do you like that?"
+    },
+    {
+      "category": "Bonus Granted",
+      "name": "Bonus Granted - Found Bonus",
+      "content": "Just now I found this xxxxxxxxxx for you, would you like it added?"
+    },
+    {
+      "category": "Bonus Denied",
+      "name": "Bonus Denied - Better Luck Next Time",
+      "content": "I hope you have better luck next time, if you need help with anything else let me know, I'll be happy to help you."
+    },
+    {
+      "category": "Bonus Denied",
+      "name": "Bonus Denied - No Free Bonuses",
+      "content": "I've looked into your account, and I wanted to let you know that unfortunately, there aren't any free bonuses available right now. But the good news is that we're always updating our promotions! I recommend checking back in a few days to see if any new offers pop up."
+    },
+    {
+      "category": "Bonus Available",
+      "name": "Bonus Available - Rewards Section",
+      "content": "I took a look at your account, and I’m sorry to say I couldn’t find any free bonuses available at the moment. However, I did notice that you have a bonus waiting for you in your rewards section. I’d recommend using that for now! Hopefully, when you check back in a few days, there will be a free bonus available for you."
+    },
+    {
+      "category": "Deposit Bonus",
+      "name": "Deposit Bonus - Alternative Offer",
+      "content": "After reviewing our system, I wanted to let you know that we don’t have any free promotions available at this time. However, I’m here to help! I can offer you a deposit bonus of XXX as an alternative for your next deposit. I hope this will enhance your experience!"
+    },
+    {
+      "category": "Deposit Bonus",
+      "name": "Deposit Bonus - System Calculation",
+      "content": "I want to inform you that bonuses and promotions are not guaranteed, as they rely on a system calculation that takes into account various factors such as deposits, withdrawals, winnings, losses, and the promotions currently available in your account."
+    },
+    {
+      "category": "No CS Bonus",
+      "name": "No CS Bonus - Contact Email",
+      "content": "I was checking the information in your account and in order to help requesting a bonus is fully necessary that you contact us via email at EMAIL.<br>The bonus team will be more than happy to help you with your request"
+    },
+    {
+      "category": "No CS Bonus",
+      "name": "No CS Bonus - Notification",
+      "content": "Take in count that you received a notification for this matter until now, it's necessary that if you want to request a bonus, you have to contact us via email"
+    },
+    {
+      "category": "No CS Bonus",
+      "name": "No CS Bonus - Bonus Team Email",
+      "content": "We suggest that you contact our Bonus Team using the email below to see what bonus offers they have available:<br>BDEU bonuses@bodog.eu<br>BVLV bonuses@bovada.lv<br>IGEU bonuses@ignitioncasino.eu<br>SLLV bonuses@slots.lv<br>CCLV bonuses@cafecasino.lv"
+    },
+    {
+      "category": "Bonus Warnings",
+      "name": "Bonus Warning 1",
+      "content": "Unfortunately, I’m not able to revisit the question of issuing you a bonus. I’ve reviewed your account, and the decision about a bonus will not change. I would be more than happy to assist you with anything else."
+    },
+    {
+      "category": "Bonus Warnings",
+      "name": "Bonus Warning 2",
+      "content": "I’ve tried my best to give you a positive resolution. Please understand, I’ve provided the final resolution and I’m not able to continue a discussion about this. I’m here to help you with any other matters relating to your account."
+    },
+    {
+      "category": "Bonus Warnings",
+      "name": "Bonus Warning 3",
+      "content": "As much as I can understand, the decision stands and will not change. As you have presented no other matters for me to handle, I will now bring an end to this interaction."
+    },
+    {
+      "category": "Escalation Templates",
+      "name": "Escalation Template - SME",
+      "content": "<b>SME</b><br>Account Number:<br>UMID ID:<br>Contact Method:<br>Issue:<br>Request/Inquiry:"
+    },
+    {
+      "category": "Escalation Templates",
+      "name": "Escalation Template - RDS Issues",
+      "content": "<b>RDS issues</b><br>How did you fix the issue? Troubleshooting steps<br>Approved by Leader:"
+    },
+    {
+      "category": "Escalation Templates",
+      "name": "Escalation Template - Sports",
+      "content": "Hi team!<br>Account name and Number:<br>Wager Number:<br>Link:<br>Concern:"
+    },
+    {
+      "category": "Escalation Templates",
+      "name": "Escalation Template - Ecom",
+      "content": "Hi team!<br>Account Details:<br>Reference Number/Payout ID: (Use Reference Number once available)<br>Contact Method: (Specify either Jira, Email, Chat, Phone, Community Forum)<br>Crypto Link: (provide if available)<br>Inquiry:"
+    },
+    {
+      "category": "Escalation Templates",
+      "name": "Escalation Template - Host",
+      "content": "Hi team!<br>Account number and name:<br>Contact:<br>Brand:<br>Inquiry: NDB or DB request if the player can't receive a NDB.<br>Thanks<br>Conversation:"
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Calm Down",
+      "content": "Calm down friend, I will help you"
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Efficient Assistance",
+      "content": "You deserve the most kind, efficient and good assistance! My job is to understand the needs of valued users like you."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Frustration",
+      "content": "I can imagine how frustrating that must be for you."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Difficult Time",
+      "content": "It sounds like you're going through a difficult time."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - I'm Here For You",
+      "content": "I hear you, and I want you to know that I'm here for you."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Challenging",
+      "content": "That must have been really challenging to deal with."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Understanding",
+      "content": "I understand why you feel that way."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - It's Okay",
+      "content": "It's okay to feel [insert emotion], given the circumstances."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Appreciation",
+      "content": "I appreciate you sharing that with me."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Not Alone",
+      "content": "You're not alone in this; I'm here to help however I can."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Upsetting",
+      "content": "I can see why that would be upsetting for you."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Thank You for Trusting",
+      "content": "Thank you for trusting me enough to open up about this."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Resolve This Situation",
+      "content": "We will do everything possible to resolve this situation, "
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Satisfaction Priority",
+      "content": "Your satisfaction is our number one priority"
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Committed to Solution",
+      "content": "We are committed to finding a solution that satisfies you."
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Here to Help",
+      "content": "I'm here to help you with whatever you need"
+    },
+    {
+      "category": "Empathy",
+      "name": "Empathy - Thank You for Sharing",
+      "content": "Thank you for sharing your concern with us"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Account Blocked",
+      "content": "I have sent you a link to reset your password to the email address on file. It should arrive in your inbox soon if you haven't received it yet. If you don't see it, be sure to check your spam folder. I have also unlocked your account. Could you confirm that you received the email? Please open the link with your browser in incognito mode"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Customer Support - Unblock Account",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Unblock acc request.<br><b>Resolution</b>: Unblocked account and sent forgot password reset link<br><b>Chat UMID</b>: [Chat UMID]"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Password Reset",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>:Reset password<br><b>Resolution</b>: Password reset link sent<br><b>Chat UMID</b>: [Chat UMID]<br>I've sent a password reset link to the email address on file. It should be in your inbox soon if not already. If you don’t see it, be sure to check your spam folder."
+    },
+    {
+      "category": "Account Updates",
+      "name": "Phone Number Update",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Player requested a Phone Number Update.<br><b>Resolution</b>: Updated Phone Number.<br><b>Chat UMID</b>: [Chat UMID]<br><br>Great, let’s get that updated! Just a quick heads-up: your phone number is sensitive information, so I’ll need a little info to verify it. Please double-check everything before you send it to avoid any typos:<br>1. Last 4 digits of your Social Security Number<br>2. Your old phone number (the one we have on file)<br>3. Your new phone number<br>Thanks for helping me make this change! Give me a couple of minutes please<br>I've just updated your phone number. If you need any more help or have any other changes, feel free to let me know"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Wrong Verification of Phone Number",
+      "content": "The phone number is a very valuable security element, so it is information that we protect, I will have to disable your account. In a moment I will tell you how to update it.<br>To update your phone number, please send the following information to Verification@bovada.lv: A government-issued photo ID (front and back). A self-portrait holding the ID next to your face. A note explaining why you are sending this documentation Once you submit the documentation, your number will be protected and your account will be re-enabled.. If you need any further details on how to update your number or have any other questions, feel free to ask. I’m here to help!"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Customer Support - Phone Number Update (Incorrect Info)",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: phone number update<br><b>Resolution</b>: player sent to verification, he said his old phone number incorrectly<br><b>Chat UMID</b>: [Chat UMID]"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Account Re-enable Request",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Account Re enable Request.<br><b>Resolution</b>: Account Re enabled as per costumer request.<br><b>Chat UMID</b>: [Chat UMID]<br><a href=\" Insert http link\" target=\"_blank\"><b> insert CHO-Number</a></b><br><br>Your account has been successfully re-enabled!"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Re-enable Jira Note",
+      "content": "Si la cuenta es disabled por algún PD/Dormant consult with csol.<br>Si es player request solo se debe crear el jira.<br><br>https://wiki.corp-apps.com/display/CSERV/Account+Status+Procedure+Landing+Page"
+    },
+    {
+      "category": "Account Updates",
+      "name": "Account Disable Request",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Account Disable Request.<br><b>Resolution</b>: Account disabled as per costumer request.<br><b>Chat UMID</b>: [Chat UMID]<br>Could you please tell me why you decided to deactivate your account?<br>Do you want to disable your account permanently?<br>Your account has been disabled.<br>I hope this break will help you feel better and come back when you feel it is necessary."
+    },
+    {
+      "category": "Account Updates",
+      "name": "Account Disable Email",
+      "content": "Hi Gary,<br>Thanks for contacting Bovada Customer Service.<br>We hope this email finds you well.<br>We would like to confirm that we have received your request to temporarily disable your account until november 12th,2025. We understand that this may be a difficult decision, and we truly appreciate the time you have taken to communicate your wishes to us.<br>Please keep in mind that during this period, you will not be able to reactivate your account until the specified date. Additionally, we would be grateful if you could share the reason behind your decision. Your feedback is invaluable to us and will help us understand your situation better, as well as improve our services to ensure that all players have the best possible experience on our website.<br>If you have any further questions or need additional assistance, feel free to reach out.<br>We're available to help 24/7 if you need anything else.<br>Best regards,<br>Bovada Customer Service service@bovada.lv"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - First Attempt Failed",
+      "content": "XXXXX, unfortunately, your 4-digit PIN does not match, this was your first attempt, but don't worry, you have a second attempt."
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Second Attempt Failed",
+      "content": "Your second attempt was unsuccessful.<br>I'm sorry, but some of the information doesn't match, I'll have to ask you two additional questions."
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - SSN",
+      "content": "XXXX, just for security purposes I need to ask you a few security questions.<br>Could you provide me the last 4 digits of your SSN, please?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Mother's Maiden Name",
+      "content": "Could you provide me your mother's maiden name, please?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Deposit Amount",
+      "content": "Could you confirm me the exact amount of your last deposit?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Deposit Date",
+      "content": "Could you tell me the exact date of your last deposit?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Withdrawal",
+      "content": "Could you please tell me when you made your last withdrawal?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Game Played",
+      "content": "Could you provide me the name of the last game you played?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Bet Amount",
+      "content": "Could you provide me the amount of the last bet you placed?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Last Poker Tournament",
+      "content": "Could you please provide me the name of the last poker tournament you played?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Account Balance",
+      "content": "Could you please provide me your balance account?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Email Address",
+      "content": "Could you provide me your email address?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Security Questions - Phone Number",
+      "content": "Could you provide me with your phone number, please?"
+    },
+    {
+      "category": "Security Questions",
+      "name": "Player Not Verified",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: [Player Inquiry]<br><b>Resolution</b>: Player not authenticated. Account Disabled. Player was informed to send documents to verification<br><b>Chat ID</b>: [Chat ID]<br>xxx as we were not able to verify your account it is going to be deactivate due to security measure so we can keep your account and funds safe and you will have to send a documentation to us. Send us a photo of a government issued photo ID from both sides as well as a self-portrait with it next to your face and send it to verification@xxxx in JPEG or PDF format. Include a small note to explain why you're sending the documentation and it will take approximately 24-48 hours to review once we receive it."
+    },
+    {
+      "category": "Security Questions",
+      "name": "Documentation for Verification",
+      "content": "You have to send this:<br>-Government issued photo ID (front and back)<br>-Selfie with the ID next to your face<br>-Note explaining why the documentation is being sent"
+    },
+    {
+      "category": "Email Addresses",
+      "name": "Verification Email Addresses",
+      "content": "Emails de verification / Service / Moderator segun las brands.<br><br>Bovada: Verification@bovada.lv<br>Ignition: Verification@Ignitioncasino.eu<br>Cafe Casino: Verification@cafecasino.lv<br>Joe Fortune: Verification@joefortunepokies.net<br>Bodog: Verification@bodog.eu<br>Slots: Verification@slots.lv"
+    },
+    {
+      "category": "Email Addresses",
+      "name": "Service Email Addresses",
+      "content": "Bovada: Service@bovada.lv<br>Ignition: Service@Ignitioncasino.eu<br>Cafe Casino: Service@cafecasino.lv<br>Joe Fortune: Service@joefortunepokies.net<br>Bodog: Service@bodog.eu<br>Slots: Service@slots.lv"
+    },
+    {
+      "category": "Email Addresses",
+      "name": "Moderator Email Addresses",
+      "content": "Bovada: Moderator@bovada.lv<br>Ignition: Moderator@Ignitioncasino.eu<br>Cafe Casino: Moderator@cafecasino.lv<br>Joe Fortune: Moderator@joefortunepokies.net<br>Bodog: Moderator@bodog.eu<br>Slots: Moderator@slots.lv"
+    },
+    {
+      "category": "Information",
+      "name": "Pending Wager",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Pending Wager<br><b>Resolution</b>:educated about the time frame for his wager<br><b>Chat UMID</b>: [Chat UMID]"
+    },
+    {
+      "category": "Information",
+      "name": "Sports Pending Wager Settlement Request",
+      "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Sports Pending Wager Settlement Request #XXXXXXXXX<br><b>Resolution</b>: Player was educated about the problem we are having on the website and was advised to wait.<br><b>Chat ID</b>: [Chat ID]<br>In order to provide accurate and final results of your wager, you will need to wait Less than 45 minutes until the game has finished. This is because the outcome of the game will ultimately determine the results of your bet. We appreciate your patience and assure you that the final results will be provided to you as soon as possible."
+    },
+    {
+      "category": "Information",
+      "name": "Time Frame for Wagers",
+      "content": "Time frame for wagers:<br>45 Minutes Most wagers<br>Less than 45 Minutes Wagers on popular leagues (NBA, MLB, etc.)<br>10 Minutes Wagers on specific time periods (quarters, halves, etc.)<br>More than 45 minutes PROPS."
+    },
+    {
+        "category": "Information",
+        "name": "Compensation for Wager Settlement",
+        "content": "https://wiki.corp-apps.com/pages/viewpage.action?spaceKey=CSERV&title=Dedicated+Compensation+Requests<br>When a source cannot be shared with a player, send the following template to the player:<br>We understand your concern with the lack of available settlement information for your wager. Wagers on smaller markets are settled based on information that can’t always be shared or disclosed publicly at the time of settlement. We want to assure you that all wagers are settled in strict accordance to our rules and regulations. Should information from an officially accepted source confirm that your wager was not correctly settled, please let us know and we'll be happy to review the wager again"
+      },
+      {
+        "category": "Information",
+        "name": "Crypto Deposit Information - Pending Confirmations",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Crypto deposit Information<br><b>Resolution</b>: Player was educated that he must wait for his deposit to have full confirmations for it to show up in his account.<br><b>Chat ID</b>: [Chat ID]<br>Normally crypto transactions take 15/20 minutes to reach your account.<br>If the transaction has not arrived to your account, it must be because it is still pending confirmations, but don't worry, I will verify that.<br>Could you provide me the crypto address, please?<br>After verifying the crypto address, I noticed that you still have missing confirmations, I suggest you wait until the deposit appears in your account."
+      },
+      {
+        "category": "Information",
+        "name": "Crypto Deposit Information - Transaction Issues",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Crypto deposit Information<br><b>Resolution</b>: Player was educated about the problems we are having with transactions, and it was suggested that he wait as we are working on it.<br><b>Chat ID</b>: [Chat ID]<br>I was checking your transaction and I can verify that it is confirmed; at the moment we are having some problems with Ethereum transactions, but we are working on it. We ask you to be patient, your money will arrive as soon as possible once this issue is resolved."
+      },
+      {
+        "category": "Information",
+        "name": "Crypto Transaction Issue - Minimum Deposit",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Crypto Transaction Issue.<br><b>Resolution</b>: Player was educated about the minimum deposit<br><b>Chat ID</b>: [Chat ID]<br><br>After thorough review your deposit, I would like to kindly inform you that any deposits below the minimum amount required will not be able to reach our account. Please remember that the minimum deposit for Ethereum is 0.02. Depositing an amount equal to or greater than this will ensure smooth processing without any issues.<br>In consideration of this situation, I am pleased to offer you a refund of your deposit this time. However, I must emphasize that this is a one-time exception. I kindly ask for your understanding and cooperation in adhering to the minimum deposit requirements in the future.<br>I have added the Crypto Error Bonus to your account. You can see it in your rewards section.<br>Also, I recommend that you take into account that the minimum deposit for ethereum is 0.02, as these types of exceptions are one time only."
+      },
+      {
+        "category": "Information",
+        "name": "Deposit Transaction Issues - Escalation",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Deposit transaction issues.<br><b>Resolution</b>: Player was advised to wait 24-48 to receive answers from us. Jira created.<br><b>UMID</b>: [UMID]<br><a href=\" Insert http link\" target=\"_blank\"><b> insert CHO-Number</a></b><br><br>Right now we are having problems with different transactions that are being made and have not reached your accounts. I will escalate your case to get it taken care of as soon as possible, I understand this may be something you were not expecting, we are working hard to fix this. You will receive a response within 24-48 hours!"
+      },
+      {
+        "category": "Information",
+        "name": "Payment Method - Card Unavailable",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Payment method<br><b>Resolution</b>: Educated that his card method is not available due to financial team criteria<br><b>Chat UMID</b>: [Chat UMID]<br>XXXX, I have been reviewing your account and would like to point out that deposit and withdrawal methods are enabled by our financial team, under certain criteria. In reviewing your available methods, I find that the card method will not be available at this time. This does not mean that they will not be available in the future, it is just that at the moment it is not possible to deposit or withdraw with the cards."
+      },
+      {
+        "category": "Information",
+        "name": "Card Transaction Issues - Recommendation",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Card Transaction Issues.<br><b>Resolution</b>: Player was advised to try crypto methods.<br><b>Chat UMID</b>: [Chat UMID]<br>I wanted to give you a quick heads-up: banks can be a bit tough when it comes to gambling sites, so card deposits aren’t always guaranteed to go through. To avoid any issues, we recommend using Bitcoin or another method. If you do run into problems, you might try using a different card or waiting 24 hours to use the same one again, but keep in mind there’s still no guarantee it will be approved even if it worked before."
+      },
+      {
+        "category": "Information",
+        "name": "Withdrawal Issue - Processing Time",
+        "content": "According to your inquiry, once checked into your account, we can see that the current status of the withdrawal requested is in process. We remind you that the time frame to the transaction be finished is from 24-48 hours after the confirmation be completed, just keep in mind that sometimes the transactions could be a little be late more than usual due to the queue of the transactions in process are.<br>Cryptocurrency withdrawals tend to be the fastest, often processed within 24 hours once the withdrawal request is approved. Bank wire transfers and checks may take longer, usually several business days to process.<br>According to this, we really recommend you to be patient and wait until the time frame be expired and please, keep attentive to your wallet in order you can see the withdrawal request.<br>If you have another inquiry, do not hesitate to contact us."
+      },
+      {
+        "category": "Information",
+        "name": "Deposit Issue - Troubleshooting",
+        "content": "We’re sorry to know that you're having problems depositing funds into your account.<br>We do understand that this situation could be frustrating, however after checking on your account, we could have noticed that your account is completely okay, you still able to deposit with your card, just keep in mind that sometimes the transactions could not go through due to the nature of our business and the policies of some bank providers.<br>Remember also that you have available, Matchpay - Voucher - Player transfer - Ethereum - Bitcoin - Litecoin.<br>We hope that you still doing great and we wish you a wonderful day!"
+      },
+      {
+        "category": "Information",
+        "name": "Matchpay Issue - Unavailable",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: MP option is not available.<br><b>Resolution</b>:Pl was advised to use other methods to make a transaction<br><b>UMID</b>: [UMID]<br>Thank you so much for waiting, xxxx! After checking on your account I was able to notice that MatchPay option is currently unavailable for your account. However, we have other convenient methods for making transactions. You can use cryptocurrencies (such as Bitcoin or Ethereum) to deposit and withdraw funds. Our financial department carefully reviews these options on a case-by-case basis, ensuring the best experience for our users.<br>Please visit the “Deposit” section in your account to explore the available options. If you have any questions or need further assistance, feel free to reach out to our support team."
+      },
+      {
+        "category": "Information",
+        "name": "Matchpay Issue - Contact Matchpay",
+        "content": "I have already check your account and taking care that MatchPay is a third-party credit trading platform, available at Bovada as a payment method. Should you encounter any issues with use of MatchPay or a particular trade, please direct your inquiry to MatchPay Customer Service at support@matchpay.app or by using their Live chat feature."
+      },
+      {
+        "category": "Information",
+        "name": "Bonus Information - Withdrawing Funds",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Bonus information.<br><b>Resolution</b>: Player was educated about how to use his bonus and the funds.<br><b>Chat ID</b>: [Chat ID]<br>Bonus funds can only be withdrawn once you have played them and all your winnings are converted into withdrawable cash.<br>If you have cash funds, it is the same, you must play them and your winnings will be converted into withdrawable money.<br>You have to play all the bonus and complete the rollover.<br>And the locked cash is the money you deposited in your account and you have to play it to withdraw"
+      },
+      {
+        "category": "Information",
+        "name": "VIP Status - Benefits",
+        "content": "As a VIP, you will receive higher amounts of free bonuses when you inquire with us. Our promotions team will offer you more promotions, and you will be more eligible to receive random promotions. In other words, you will have more benefits in terms of promotions and bonuses.<br>I couldn't tell you exactly what promotions you would receive, as that is handled by the promotions department.<br>Our marketing team will contact you or let you a message when the promotions get available for you!"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Sportsbook Technical Issues - Compensation",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>:Sportsbook Technical Issues<br><b>Resolution</b>: Player was informed about that we are having issues in the system. Compensation bonus was added.<br><b>Chat ID</b>: [Chat ID]<br>At the moment we are having some technical issues as you can see in our website, our team is working on it to fix it as soon as possible<br>We suggest you to be patience until this issue can be solved<br>I will add a bonus of $XXXX as compensation for this!"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Random Number Generator Explanation",
+        "content": "We utilize a Random Number Generator (RNG) to guarantee the unpredictability of our games. The RNG uses a computational algorithm to produce a sequence of numbers or symbols which cannot be mathematically determined."
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Troubleshooting Steps",
+        "content": "Please follow the troubleshooting steps:<br>-Erase the cache memory of your device.<br>-Clear the cookies on your browser.<br>-Attempt to access the platform using Incognito mode.<br>-Turn off and on your modem if you are utilizing your home internet.<br>-Consider switching to mobile data for accessing the platform.<br>-Use the browser in incognito mode"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - Chargebacks",
+        "content": "<b>How To Handle Accounts with Negative Balances: </b><br><b>Chargebacks:</b><br>Due to a problem with your account, you will need to be contacted via phone so that you can be better assisted. Are you available to receive a call right now?<br>Notes:<br>If you are dealing with a chargeback and the player is available for a call right away, transfer to Customer Solutions; unless there were instructions left in 'ops-customer-service' Mattermost room to create callback tickets instead.<br>If the account is disabled, advise player that his account status can be discussed only over the phone and collect player's contact details to schedule a callback.<br>If the account is enabled and the player inquires about the negative balance, advise them to check the account messages/emails. If the player insists on obtaining additional details, a callback needs to be scheduled."
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - MatchPay Debits",
+        "content": "<b>MatchPay debits:</b><br>MatchPay is a separate company and it's used as a third-party provider. For any negative balance generated by an MatchPay related transactions:<br><br>Advise the player that we do NOT have any additional details of what actually happened on the MatchPay platform that generated this adjustment.<br>Direct the player to either resolve their negative balance on-site, by depositing OR to contact MatchPay representatives directly, for more details.<br>https://wiki.corp-apps.com/display/CSERV/MatchPay#MatchPay-ContactingMatchPay"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - Match Bonus Redemption",
+        "content": "<b>Match Bonus Redemption:</b><br>There are situations, when a negative balance will be caused by a deposit match bonus (redeemed while the account was negative for another reason, incorrect amount locked by CS, etc.), reach a floor supervisor or SME for assistance."
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - Wager Re-settlement",
+        "content": "<b>Wager re-settlement:</b><br>When handling an account that has a negative balance due to a wager re-settlement and/or a voided bet, escalate it to the Sports Team using the 'ops-sports-questions' conference room.<br>https://wiki.corp-apps.com/display/CSERV/Wagering+Inquiries+Guide"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - Marketplace Fraud",
+        "content": "<b>Marketplace Fraud:</b><br>There are situations when a negative balance will result from a trade that occurred on the Marketplace (Community Forum) when a buy or sell of a Voucher/Player Transfer fails.<br><br>When you receive a contact from a player having this type of a negative balance, inform them that you are unable to discuss any further details and they should immediately send an email to moderators@brand.<br>There's no need to contact moderators via the Community Forum Conference room, unless the player has already sent us an email and it's been more than 48 hours.<br>https://wiki.corp-apps.com/display/ASERV/Community+Forums"
+      },
+      {
+        "category": "Technical Issues",
+        "name": "Handling Accounts with Negative Balances - More Information",
+        "content": "More detailed information: https://wiki.corp-apps.com/display/CSERV/Customer+Manager+-+Handling+Negative+Balances"
+      },
+      {
+        "category": "Email Templates",
+        "name": "Email Complementary Templates - Further Inquiries",
+        "content": "If you have further inquiries, don't hesitate to contact us via our Live Chat by following the steps below:<br><br>1.Go to the help section, that is located at the end of the website or at the top right corner.<br>2.Enter a question, could be the one regarding the actual issue that you're looking assistance for.<br>3.Scroll down until the bottom of the page.<br>4.Where it says: \"Did you find what you were looking for?\", click 'NO'.<br>5.Click in the option 'CHAT WITH US'."
+      },
+      {
+        "category": "Information",
+        "name": "Rule Number 10 - Wager Cancellation",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Wager cancellation request.<br><b>Resolution</b>: Cancelation Denied. Player was educated about the Rule Number 10. Of the General Sport Betting Rules.<br><b>Chat ID</b>: [Chat ID]<br><br>I'm sorry to disappoint you, xxx. But according to rule number 10 of the General Sport Betting Rules: You can't cancel, change, or modify your bet in any way once it has been received and accepted by Bovada Casino and Sportsbook. As you are solely responsible for your account transactions, review all bet details for any mistakes, errors or omissions before clicking 'PLACE BETS'.<br><br>https://www.bovada.lv/help/sports-faq/general-betting-rules"
+      },
+      {
+        "category": "Information",
+        "name": "How to Create an Exodus Wallet",
+        "content": "To create an Exodus wallet, follow these steps:<br><br>-Visit the official Exodus website at www.exodus.io.<br>-Click on the \"Download\" button to download the Exodus wallet application for your operating system (Windows, Mac, or Linux).<br>-Install the Exodus wallet application on your computer by following the on-screen instructions.<br>-Once the installation is complete, open the Exodus wallet application.<br>-Click on the \"Create Wallet\" button to set up a new wallet.<br>-Enter a strong and secure password for your wallet.<br>-Make sure to store your password in a safe place as it cannot be recovered if forgotten.<br>-Backup your wallet by clicking on \"Backup\" and following the instructions to write down your 12-word recovery phrase.<br>-Make sure to keep this recovery phrase secure and private.<br>-Your Exodus wallet is now created and ready to use.<br>-You can start sending, receiving, and storing various cryptocurrencies in your wallet.<br><br>Remember to always keep your wallet and recovery phrase secure and never share it with anyone else."
+      },
+      {
+        "category": "Information",
+        "name": "Skilled Players - No Bonus Explanation",
+        "content": "Thanks for holding, xxx.<br>After doing a little review on your account, I could observe that you are a great player of our casino; because of that, our team has considered that you don't need a bonus to win, since unlike other players, you are always lucky.<br>We appreciate your contribution to our casino; we are available 24 hours a day to help you with anything you need with your account."
+      },
+      {
+        "category": "Personal",
+        "name": "Over Break/Lunch Explanation",
+        "content": "La razón de mis over break y over lunch en primer lugar, fueron porque estuve tratando de manejar algunas situaciones que estaban pasando en mi familia, que necesitaban mi presencia de alguna forma, ya que no vivo con ellos; No fui consciente del tiempo que estuve en las llamadas hasta varios minutos después. Los siguientes días cada minuto que llegaba tarde en los cambios de código fue mi error, porque no estuve del todo consiente del tiempo.<br><br>Me hago completamente responsable de mis acciones e informaré ante cualquier situación que me lleve a estar fuera más tiempo del estimado con mi supervisor, por si es algo que requiere de mi completa atención. También me comprometo a mantener mis cambios de código y llegadas temprano lo más exactas posible para no volver a repetir esta situación."
+      },
+      {
+        "category": "Language",
+        "name": "Language Warning 1",
+        "content": "I really want to help you, but it's imperative to maintain a respectful language. Using that language is against the principles of respect that we uphold here. If this behavior persists, we will have to terminate this chat."
+      },
+      {
+        "category": "Language",
+        "name": "Language Warning 2",
+        "content": "Please remember this is a business line so I would appreciate it if you can abstain from rude language. I'm doing my best to help you with this."
+      },
+      {
+        "category": "Language",
+        "name": "Language Warning 3",
+        "content": "You were warned. Your behavior has been noted on your account as abusive and this interaction is now terminated."
+      },
+      {
+        "category": "Information",
+        "name": "Transfer to Casino",
+        "content": "I am sorry that you have experienced this issue on our casino or poker site. At this time you will be transferred to one of our agents specialized in this subject, who will give you the best attention.<br><br>Friend, at this moment you will be transferred to one of our agents specialized in poker and casino, they will give you the best attention for this case."
+      },
+      {
+        "category": "Information",
+        "name": "Customer Support - Casino Issues",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Casino Issues<br><b>Resolution</b>: The player was transferred to casino, because I don't have that training<br><b>Chat UMID</b>: [Chat UMID]"
+      },
+      {
+        "category": "Information",
+        "name": "Deposit and Withdrawal Methods Available",
+        "content": "Our deposit and withdrawal methods are determined by several factors and reviewed on a case-by-case basis. Our financial department determined the options you have available. It is under the discretion and review of the Financial team. You'd need to use the options you have available on the \"deposit\" section."
+      },
+      {
+        "category": "Information",
+        "name": "Unmutual Understanding",
+        "content": "Mr/Ms. XXXX, we’re not achieving a mutual understanding on the situation and we are at a spot where I'll need to close this conversation.<br><br>Please understand, I’ve provided the final resolution, and I’m not able to continue a discussion about this.. I’m here to help you with any other matters relating to your account"
+      },
+      {
+        "category": "Information",
+        "name": "Pre-authorization Explanation",
+        "content": "I'm sorry to say that you are going through a Pre-Authorization case. What you are going through is that in many cases the banks, because they do not have a relationship with casinos, cause the transactions to bounce, but don't worry, in 7 or 10 business days you will have your money back.<br><br>Here is a help center where they explain it to you in detail:<br><br>To avoid these problems, I recommend that you use crypto methods, since they are 100% guaranteed on our site, they do not charge a fee, they have no deposit limit and in addition to that they offer you more benefits within our site.<br><br>Here is a help center with all the details on how to start depositing with crypto:"
+      },
+      {
+        "category": "Notes",
+        "name": "Customer Support - Pre-authorization Issues",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Pre-authorization Issues.<br><b>Resolution</b>: The player was educated about the waiting times for the return of his money.<br><b>Chat UMID</b>: [Chat UMID]"
+      },
+      {
+        "category": "Information",
+        "name": "Survey Bonus - Time Frame",
+        "content": "Friend, I inform you that such is established by our terms and conditions all bonuses received by email, Facebook, Telegram or any social network after redeeming have a period of 24 to 48 hours for it to be reflected in your account \"Lucky winners of our social media bonuses will be issued the bonus amount approximately 24-48 hours after the announcement. If for whatever reason you do not receive your bonus after this time\" https://www.ignitioncasino.eu/help/bonuses-faq/claim-bonus<br><br>After the time frame if you do not receive the bonus I invite you to contact us again and remember that you must have a screenshot of the email or offer received to buy that you did indeed receive it and we can help you"
+      },
+      {
+        "category": "Information",
+        "name": "Double Charge - Referral to Financial Team",
+        "content": "Friend, I understand that you feel a little worried about your money. I inform you that in order to help you, I will redeem you with our financial team. You must send your bank statements (without cuts where the double charge is evident, a photo of your ID on both sides and a selfie of your face next to your ID (JPG or PDF format). Screenshots are not accepted.<br><br>You will send this information to financialservices@bovada.lv and within 24 to 48 hours they will give you a response.<br><br>In addition to that, I recommend the use of crypto methods in which I assure you that you will not have that type of problems, they are 100% guaranteed, they do not charge fee and they have no deposit limit. Here is a link to our site with all the information: https://www.bovada.lv/help/cryptocurrency-faq/how-to-deposit-cryptocurrency"
+      },
+      {
+        "category": "Notes",
+        "name": "Customer Support - Double Charge",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: Double charge<br><b>Resolution</b>: player referred to financial team<br><b>Chat UMID</b>: [Chat UMID]"
+      },
+      {
+        "category": "Information",
+        "name": "Anti-Money Laundering - Withdrawal Policy",
+        "content": "You cannot withdraw your money due to our Anti Money Laundering policies, what does this mean? It means that in order to withdraw your winnings you must play 100% of the deposited money to be able to make a withdrawal, that is, if you deposit 100 USD, you must play 100 within the site and withdraw the winnings, in this case you are still missing XXXX to be able to withdraw your money, for more information see: LINK HELP CENETR"
+      },
+      {
+        "category": "Notes",
+        "name": "Customer Support - Can't Withdraw",
+        "content": "<b>CUSTOMER SUPPORT</b><br><b>Player Inquiry</b>: player can't withdraw<br><b>Resolution</b>: Educated about anti-money laundering<br><b>Chat UMID</b>: [Chat UMID]"
+      },
+      {
+        "category": "Information",
+        "name": "Rollover Casino Calculation",
+        "content": "((DEPOSIT + BONO) * ROLLOVER ) * (100/WC) ="
+      }
+    ]
