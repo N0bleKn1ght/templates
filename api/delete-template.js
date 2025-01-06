@@ -5,6 +5,12 @@ module.exports = async (req, res) => {
   if (req.method === 'DELETE') {
     try {
       const { name } = req.query;
+
+      // Validate input
+      if (!name) {
+        return res.status(400).json({ message: 'Invalid input: name is required' });
+      }
+
       const filePath = path.join(process.cwd(), 'templates.json');
       const templatesData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 

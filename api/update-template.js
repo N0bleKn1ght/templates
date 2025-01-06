@@ -5,6 +5,12 @@ module.exports = async (req, res) => {
   if (req.method === 'PUT') {
     try {
       const { name, content } = req.body;
+
+      // Validate input
+      if (!name || !content) {
+        return res.status(400).json({ message: 'Invalid input: name and content are required' });
+      }
+
       const filePath = path.join(process.cwd(), 'templates.json');
       const templatesData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
