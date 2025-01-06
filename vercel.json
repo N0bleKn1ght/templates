@@ -1,7 +1,5 @@
-```json
 {
-  "rewrites": [
-    { "source": "/manage", "destination": "/manage.html" }
-  ]
-}
-```
+    "rewrites": [
+      { "source": "/manage", "destination": "/manage.html" }
+    ]
+  }
