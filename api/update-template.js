@@ -1,15 +1,13 @@
-// Node.js code for the serverless function
 const fs = require('fs');
 const path = require('path');
 
 module.exports = async (req, res) => {
   if (req.method === 'PUT') {
     try {
-      const { name, content } = req.body; // Assuming you send data in the body
-      const filePath = path.join(process.cwd(), 'templates.json'); // Path to templates.json
+      const { name, content } = req.body;
+      const filePath = path.join(process.cwd(), 'templates.json');
       const templatesData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
-      // Find and update the template
       const templateIndex = templatesData.findIndex(t => t.name === name);
       if (templateIndex !== -1) {
         templatesData[templateIndex] = { name, content };
