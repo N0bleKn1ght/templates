@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/manage", "destination": "/manage.html" }
+      { "source": "/manage", "destination": "/public/manage.html" }
     ],
     "trailingSlash": false,
     "headers": [
