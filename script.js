@@ -1,6 +1,6 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js';
 import { getDatabase, ref, get, child, set, remove } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
-import { db } from './firebaseConfig.js';
+import { db } from './public/firebaseConfig.js';
 
 const templateButtonsContainer = document.getElementById('template-buttons');
 const searchBar = document.getElementById('search-bar');

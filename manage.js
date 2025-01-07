@@ -1,5 +1,5 @@
 import { getDatabase, ref, get, child, set, remove } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
-import { db } from './firebaseConfig.js'; // Import the db object
+import { db } from './public/firebaseConfig.js';
 
 const templateList = document.getElementById('template-list');
 
