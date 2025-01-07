@@ -1,17 +1,6 @@
 {
     "rewrites": [
-      { "source": "/manage", "destination": "/public/manage.html" }
-    ],
-    "trailingSlash": false,
-    "headers": [
-      {
-        "source": "/public/(.*)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      }
+      { "source": "/manage", "destination": "/public/manage.html" },
+      { "source": "/", "destination": "/index.html" }
     ]
   }
