@@ -1,4 +1,4 @@
-import { db } from '../public/firebaseConfig.js'; // Correct path
+import { db } from './firebaseConfig.js'; // Correct path
 import { ref, set } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
 
 // ... rest of your api/update-template.js code ...

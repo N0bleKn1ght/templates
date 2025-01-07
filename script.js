@@ -1,6 +1,6 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js';
 import { getDatabase, ref, get, child, set, remove } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
-import { db } from './firebaseConfig.js'; // Correct path
+import { db } from './api/firebaseConfig.js'; // Correct path
 
 // ... rest of your script.js code ...
 
