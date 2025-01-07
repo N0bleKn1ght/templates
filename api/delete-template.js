@@ -1,5 +1,7 @@
-import { db } from '../firebaseConfig';
-import { ref, remove } from 'firebase/database';
+import { db } from '../public/firebaseConfig.js';
+import { ref, remove } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
+
+// ... rest of your api/delete-template.js code
 
 module.exports = async (req, res) => {
   if (req.method === 'DELETE') {

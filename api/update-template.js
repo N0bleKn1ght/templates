@@ -1,5 +1,7 @@
-import { db } from '../firebaseConfig';
-import { ref, set } from 'firebase/database';
+import { db } from '../public/firebaseConfig.js';
+import { ref, set } from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js';
+
+// ... rest of your api/update-template.js code
 
 module.exports = async (req, res) => {
   if (req.method === 'PUT') {
